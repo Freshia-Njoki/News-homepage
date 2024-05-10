@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem;
+  background-color: hsl(36, 100%, 99%);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  /* gap: 2rem; */
+  font-size: 14px;
+  align-items: center;
+
+  padding: 0rem 3rem;
+}
+.menu {
+  margin-right: 0;
+  margin-left: auto;
+}
+.menu > span {
+  padding-right: 1.5rem;
+  color: grey;
+  /* border: 2px solid red; */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  gap: 1.5rem;
+  padding: 0.5rem 0rem 2rem 0rem;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.quiz {
+  font-weight: 1000;
+  font-size: 28px;
+  width: 80%;
+}
+
+.read-more {
+  font-size: 13px;
+}
+
+button {
+  padding: 5px 15px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  background-color: hsl(5, 85%, 63%);
+}
+
+.left-container {
+  width: 90%;
+}
+.image > img {
+  width: 97%;
+  height: 12rem;
+}
+
+.right-container {
+  width: 30%;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  font-size: 12px;
+  padding: 1rem;
+  height: 40%;
+}
+.desktop-img {
+  width: 70%;
+}
+
+.right-container > h1 {
+  color: hsl(35, 77%, 62%);
+  padding: 1rem 0rem;
+}
+
+.news > p {
+  color: grey;
+  padding-top: 3px;
+}
+
+.news {
+  border-bottom: 2px solid grey;
+}
+
+.img > img {
+  height: 6rem;
+  width: 5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem 2rem;
+}
+
+.footer-content {
+  color: grey;
+  width: 9rem;
+}
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+  gap: 1rem;
+  font-size: 13px;
+}
+
+.footer-content > h3 {
+  color: black;
+}
