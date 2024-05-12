@@ -46,8 +46,9 @@ h1 {
   font-size: 40px;
 }
 .quiz {
-  font-weight: 1000;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
   width: 80%;
 }
 
@@ -105,23 +106,81 @@ button {
 footer {
   display: flex;
   flex-direction: row;
-  padding: 0.2rem 2rem;
+  padding: 0rem 3rem 0rem 0rem;
+  width: 90vw;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-content {
   color: grey;
-  width: 9rem;
+  margin: 1px;
+  width: 10rem;
+  text-align: left;
 }
 .first,
 .second,
 .third {
   display: flex;
   flex-direction: row;
-  margin-right: 2rem;
-  gap: 1rem;
+  margin: 1rem auto 0rem 3rem;
+  /* border: 2px solid red; */
   font-size: 13px;
+  gap: 2rem;
 }
 
 .footer-content > h3 {
   color: black;
+}
+
+
+@media only screen and (max-width: 768px){
+  body{
+    width: 100%;
+
+    .menu{
+      
+    }
+
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+    .left-container{
+      width: 100%;
+      /* border: 2px solid red; */
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .right-container{
+      width: 97%;
+      margin-right: 1rem;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      margin: 0rem;
+      width: 100%;
+      padding: rem;
+    }
+    .footer-content{
+      width: 97%;
+    }
+    .first,
+.second,
+.third {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  font-size: 13px;
+  width: 100%;
+}
+  }
+  
+  
 }
