@@ -12,7 +12,6 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  /* gap: 2rem; */
   font-size: 14px;
   align-items: center;
 
@@ -21,7 +20,10 @@ nav {
 .menu {
   margin-right: 0;
   margin-left: auto;
-}
+} 
+ .link{
+display: none;
+ }
 .menu > span {
   padding-right: 1.5rem;
   color: grey;
@@ -124,7 +126,6 @@ footer {
   display: flex;
   flex-direction: row;
   margin: 1rem auto 0rem 3rem;
-  /* border: 2px solid red; */
   font-size: 13px;
   gap: 2rem;
 }
@@ -132,15 +133,13 @@ footer {
 .footer-content > h3 {
   color: black;
 }
-
+svg{
+  display: none;
+}
 
 @media only screen and (max-width: 768px){
   body{
     width: 100%;
-
-    .menu{
-      
-    }
 
     .main-container {
       display: flex;
@@ -149,7 +148,6 @@ footer {
     }
     .left-container{
       width: 100%;
-      /* border: 2px solid red; */
     }
 
     .content {
@@ -180,6 +178,13 @@ footer {
   font-size: 13px;
   width: 100%;
 }
+  }
+  .menu >  span{
+    display: none;
+  }
+  svg
+  {
+    display: inline;
   }
   
   
